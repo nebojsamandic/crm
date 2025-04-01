@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CRM Login Page" />
+    <meta name="Author" content="Nebojsa Mandic" />
+    <meta name="keywords" content="HTML, CSS" />
+    <link rel="stylesheet" href="pages/index.css" />
+    <link rel="icon" type="image/x-icon" href="./images/icon.png" />
+    <title>CRM - Login</title>
+  </head>
+  <body>
+    <div class="page">
+      <content class="crm__login">
+        <div class="crm__login_block">
+          <h2 class="crm__title">CRM Login</h2>
+          <form name="user-login" class="crm__form">
+            <label for="user-login-username" class="crm__label">
+              Username
+              <input
+                id="user-login-username"
+                class="crm__input"
+                type="string"
+                placeholder="Input Username"
+                name="username"
+                minlength="2"
+                maxlength="20"
+                required
+              />
+            </label>
+            <label for="user-login-password" class="crm__label">
+              Password
+              <input
+                id="user-login-password"
+                class="crm__input"
+                type="password"
+                placeholder="Input Password"
+                name="password"
+                minlength="5"
+                maxlength="20"
+                required
+              />
+            </label>
+            <button class="crm__login_btn" type="submit">Login</button>
+          </form>
+        </div>
+      </content>
+    </div>
+  </body>
+</html>
