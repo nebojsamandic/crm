@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../pages/search.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Page</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="search__bar">
+        <h2 class="search__title"></h2>
+        <form name="user-details" class="search__user">
+          <label for="user-details-lookup" class="search__label">
+            User Details
+            <input
+              id="user-details-lookup"
+              class="search__user-input"
+              type="string"
+              placeholder="Account Information"
+              name="details"
+              maxlength="30"
+              required
+            />
+          </label>
+          <button class="search__btn" type="search">Search</button>
+        </form>
+      </div>
+      <div class="search__results"></div>
+    </div>
+  </body>
+</html>
