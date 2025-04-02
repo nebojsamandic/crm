@@ -11,4 +11,5 @@
 .page {
     background-color: rgb(243, 207, 29, 0.1);
     height: 100vh;
+    padding-top: 130px;
 }
